@@ -1,0 +1,235 @@
+---
+title: "You are stronger than you think"
+subtitle: "Insights for academic publishing"
+author: "K. Bret Staudt Willet"
+date: "10/26/2020"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    seal: true
+    css: [default, 'custom.css', 'custom-fonts.css']
+    nature:
+      titleSlideClass: [left, bottom]
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+usethis::use_git_ignore(c("*.csv", "*.rds"))
+options(htmltools.dir.version = FALSE)
+
+#titleSlideClass: [inverse, center, middle]
+#"default", "metropolis", "metropolis-fonts", 
+
+# see options for customize slides: 
+# https://slides.yihui.name/xaringan/
+# https://slides.yihui.name/xaringan/incremental.html
+# https://github.com/yihui/xaringan/wiki
+
+library(knitr)
+library(tidyverse)
+library(xaringan)
+```
+
+class: inverse, center, middle
+
+# Slides
+
+[bretsw.github.io/publishing-lecture/](https://bretsw.github.io/publishing-lecture/)
+
+---
+
+class: inverse, center, middle
+
+```{r, out.width = "720px", echo = FALSE, fig.align = "center"}
+include_graphics("img/i-kill-giants.jpg")
+```
+
+**"You are stronger than you think."**
+
+---
+
+# About me
+
+```{r, out.width = "600px", echo = FALSE, fig.align = "center"}
+include_graphics("img/five.jpg")
+```
+
+- Year 5
+
+--
+
+- Job market
+
+---
+
+# My research area
+
+```{r, out.width = "600px", echo = FALSE, fig.align = "center"}
+include_graphics("img/network.jpg")
+```
+
+- Networked learning
+
+--
+
+- How social media platforms support online learning communities
+
+--
+
+- New teachers looking for support during induction
+
+---
+
+class: inverse, center, middle
+
+# Writing
+
+```{r, out.width = "720px", echo = FALSE, fig.align = "center"}
+include_graphics("img/publish.jpg")
+```
+
+---
+
+# Understanding writing
+
+```{r, out.width = "480px", echo = FALSE, fig.align = "center"}
+include_graphics("img/thread.jpg")
+```
+
+- Start with **Problem** (what's missing) + **Purpose** (so what?)
+
+--
+
+- Jump to **Research Questions**
+
+--
+
+- Back to **Lit Review (what is known)** + **Framework** (what to look at)
+
+--
+
+- Forward to **Method** (how to answer RQs)
+
+--
+
+- Forward to **Results** (what was found) + **Discussion** (how it fits the literature)
+
+---
+
+class: inverse, center, middle
+
+# Publishing
+
+```{r, out.width = "720px", echo = FALSE, fig.align = "center"}
+include_graphics("img/publish.jpg")
+```
+
+---
+
+# Understanding publishing
+
+```{r, out.width = "480px", echo = FALSE, fig.align = "center"}
+include_graphics("img/publish.jpg")
+```
+
+--
+
+- Philosophy and principles of **open science**: knowledge for the common good
+
+--
+
+- **Apprenticeship** in a community of practice
+
+--
+
+  - Legitimate peripheral participation
+  
+--
+
+  - Situated learning
+
+---
+
+# Picking a journal
+
+```{r, out.width = "600px", echo = FALSE, fig.align = "center"}
+include_graphics("img/cocktail-party.jpg")
+```
+
+--
+
+- Join the cocktail party conversation (thanks Ralph!)
+
+--
+
+-  Try to cite 5 articles from the journal
+
+---
+
+# Reaching out
+
+```{r, out.width = "600px", echo = FALSE, fig.align = "center"}
+include_graphics("img/reach-out.jpg")
+```
+
+--
+
+- Remember that editors are people too
+
+--
+
+- Seriously
+
+--
+
+- All the ones I know are really great people on top of that
+
+---
+
+# Waiting
+
+```{r, out.width = "720px", echo = FALSE, fig.align = "center"}
+include_graphics("img/across-time.jpg")
+```
+
+--
+
+- No getting around it, waiting is hard. 
+
+--
+
+- It  also seems to be a major task in academia.
+
+--
+
+- Do your part early and well, then find something else to keep you busy while you wait
+
+---
+
+class: inverse, center, middle
+
+# You are stronger than you think!
+
+```{r, out.width = "480px", echo = FALSE, fig.align = "center"}
+include_graphics("img/strong.jpg")
+```
+
+---
+
+# Questions?
+
+```{r, out.width = "360px", echo = FALSE, fig.align = "center"}
+include_graphics("img/question.jpg")
+```
+
+* **Email:** [staudtwi@msu.edu](mailto:staudtwi@msu.edu)
+
+* **Web:** [bretsw.com](http://bretsw.com)
+
+* **Twitter:** [@bretsw](https://twitter.com/bretsw)
+
+* **GitHub:** [bretsw](https://github.com/bretsw)
+
+* **Slides:** [bretsw.github.io/publishing-lecture/](https://bretsw.github.io/publishing-lecture/)
